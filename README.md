@@ -1,7 +1,5 @@
 # All the customisation is added to make Winux 7 Classic possible.  
 To use it, dump all of the files in the repo into the root folder of a Linux Mint 20.3 installation. Or only add the parts that you like.  
-## Use at your own risk  
-You are on your own, good luck  
 
 # Package needed and what they do
 wine - Run Windows files  
@@ -12,7 +10,7 @@ konsole - use to run script on start-up
 vlc - media player I personally like it better then celluloid. you can choose to not use it and install mpv or other  
 xdotool - automate clicks during one click installation  
 dconf-editor - regedit for Linux, cool to have  
-opencv-python:
+opencv-python - To get custom login screen to work:
 pip install opencv-python
 OneDriveGUI:
 pip install -r /etc/skel/.config/winux7/OneDriveGUI/requirements.txt
@@ -43,3 +41,21 @@ dpkg -i lightdm-webkit-greeter_0.1.2-0ubuntu4_amd64.deb
 # Stuff to remove  
 libreoffice  
 celluloid - optional you can keep it if you want to
+
+# Other configurations
+
+Remove a file to make snap work:
+rm /etc/apt/preferences.d/nosnap.pref
+Make wine the default programe to open .exe file:
+ln -s /usr/share/doc/wine/examples/wine.desktop /usr/share/applications
+Disable mintwelcome from /usr/bin and /usr/share/applications:
+sudo rm /usr/bin/mintwelcome && sudo rm /usr/share/applications/mintwelcome
+Remove cinnamon-screensaver:
+sudo rm /usr/bin/cinnamon-screensaver
+Make winver launchable:
+apt install python3-pyqt5 -y
+ln /etc/skel/.config/winux7/winver7/winver /bin/winver
+
+# Use at your own risk  
+You are on your own, good luck  
+(Seriously, don't do this yourself if you don't know what you are doing. Especially on your daily driver)
