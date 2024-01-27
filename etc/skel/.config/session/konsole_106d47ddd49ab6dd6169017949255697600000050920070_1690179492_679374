@@ -1,0 +1,19 @@
+[1]
+Active=0
+Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]}]
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+RemoteTab=(%u) %H
+SessionGuid={854b0713-fe70-4a64-b3ab-419aad8a7ba0}
+WorkingDir[$e]=$HOME
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAHKAAAABAAAAAQAAAAIAAAACPwAAAAA

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/q/.config/autostart/cursor.sh
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_AU]=cursor-old.desktop
+Comment[en_AU]=No description
+X-GNOME-Autostart-Delay=0

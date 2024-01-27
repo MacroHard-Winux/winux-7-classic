@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Fonts
+Comment=View fonts on your system
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=fonts;fontface;
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=preferences-desktop-font
+Exec=gnome-font-viewer %u
+Terminal=false
+Type=Application
+DBusActivatable=true
+StartupNotify=true
+Categories=GTK;GNOME;Utility;X-GNOME-Utilities;
+MimeType=application/x-font-ttf;application/x-font-pcf;application/x-font-type1;application/x-font-otf;font/ttf;font/otf;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-font-viewer
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-OtherBinaries=gnome-thumbnail-font
+X-GNOME-Bugzilla-Version=@VERSION@
+X-Ubuntu-Gettext-Domain=gnome-font-viewer

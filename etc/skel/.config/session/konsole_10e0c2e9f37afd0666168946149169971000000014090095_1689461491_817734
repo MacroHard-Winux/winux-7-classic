@@ -1,0 +1,19 @@
+[1]
+Active=0
+Tabs=[{"Orientation":"Horizontal","Widgets":[{"SessionRestoreId":1}]}]
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+RemoteTab=(%u) %H
+SessionGuid={23dcf55f-1648-4bb1-b51a-1ad399d9a3a8}
+WorkingDir[$e]=/usr/share/winux7
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAAoAAAAHKAAAABAAAAAQAAAAIAAAACPwAAAAA

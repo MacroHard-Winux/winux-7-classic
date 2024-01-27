@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=Rhythmbox
+GenericName=Music Player
+X-GNOME-FullName=Rhythmbox Music Player
+Comment=Play and organize your music collection
+Exec=rhythmbox-client --select-source %U
+Terminal=false
+NoDisplay=true
+Type=Application
+Icon=org.gnome.Rhythmbox
+X-GNOME-DocPath=rhythmbox/rhythmbox.xml
+Categories=GNOME;GTK;AudioVideo;
+MimeType=x-content/audio-player;x-content/audio-cdda;
+StartupNotify=false
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=rhythmbox
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-OtherBinaries=rhythmbox;rhythmbox-metadata;
+X-GNOME-Bugzilla-Version=3.4.4
+X-Ubuntu-Gettext-Domain=rhythmbox

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Windows 10 VM
+Comment=Launch the Windows 10 Virtual Machine
+Icon=virtual-pc
+Exec=/usr/share/winux7/WindowsVM.sh
+Terminal=false
+StartupNotify=true
+Type=Application
+

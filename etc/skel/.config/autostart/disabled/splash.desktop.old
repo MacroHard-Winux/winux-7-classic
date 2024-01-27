@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=python3 /etc/skel/.config/winux7/splash/welcomeSplash.py & for i in {1..128}; do wmctrl -a Video ; echo -n "This is a test in loop $i "; date ; sleep 0.1; done
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[C]=icons
+Comment[C]=No description
+X-GNOME-Autostart-Delay=1

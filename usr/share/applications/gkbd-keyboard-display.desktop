@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Keyboard Layout
+Comment=Preview keyboard layouts
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=preferences-desktop-keyboard
+Exec=gkbd-keyboard-display
+Terminal=false
+Type=Application
+StartupNotify=true
+NoDisplay=true
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=libgnomekbd
+X-GNOME-Bugzilla-Component=Drawing
+X-GNOME-Bugzilla-Version=3.26.1
+Categories=GNOME;GTK;Core;System;
+OnlyShowIn=GNOME;
+X-Ubuntu-Gettext-Domain=libgnomekbd

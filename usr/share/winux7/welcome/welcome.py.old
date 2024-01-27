@@ -1,0 +1,63 @@
+import tkinter as tk
+from tkinter import ttk
+from PIL import Image, ImageTk
+import subprocess
+import os
+import ttkthemes
+
+# Create the window
+window = ttkthemes.ThemedTk(theme="feren")
+
+# Set the window title
+window.title("Winux 7")
+
+# Set the window size
+window.geometry("400x350")
+
+# Load the image
+image = Image.open("logo.png")
+
+# Convert the image to Tkinter format
+tk_image = ImageTk.PhotoImage(image)
+
+# Create a label for the welcome message
+welcome_label = ttk.Label(window, text="Welcome to ", font=("Arial", 24))
+
+# Set the label's position
+welcome_label.pack(pady=20)
+
+# Create a label for the image
+image_label = ttk.Label(window, image=tk_image)
+
+# Set the label's position
+image_label.pack()
+
+# Create a blank label for spacing
+blank_label = ttk.Label(window, text="", font=("Arial", 18))
+
+# Set the label's position
+blank_label.pack()
+
+# Create a label for the question
+question_label = ttk.Label(window, text="What do you want to do?", font=("Arial", 18))
+
+# Set the label's position
+question_label.pack()
+
+# Create a function to execute the script
+def install_office():
+    script_path = os.path.expanduser("~/Desktop/Winux Tools/Install MS Office.sh")
+    subprocess.run(["/bin/bash", script_path])
+
+# Create a button for installing Microsoft Office 2007
+install_button = ttk.Button(window, text="Install Microsoft Office 2007", style='my.TButton', command=install_office)
+
+# Define a custom style for the button
+window.style = ttk.Style()
+window.style.configure('my.TButton', font=("Arial", 14), background="lightgray", foreground="black")
+
+# Set the button's position
+install_button.pack(pady=20)
+
+# Run the window
+window.mainloop()

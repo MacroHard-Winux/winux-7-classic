@@ -1,0 +1,12 @@
+[Desktop Entry]
+X-SnapInstanceName=p7zip-desktop
+Name=P7Zip Desktop
+GenericName=P7Zip Desktop - File Manager
+Type=Application
+Categories=GTK;Utility;Archiving;Compression;
+Terminal=false
+Exec=env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/p7zip-desktop_p7zip-desktop.desktop /snap/bin/p7zip-desktop %U
+NoDisplay=false
+Icon=7zip
+MimeType=application/gzip;application/x-7z-compressed;application/x-7z-compressed-tar;application/x-arj;application/x-bzip;application/x-bzip-compressed-tar;application/x-bzip1;application/x-bzip1-compressed-tar;application/x-cabinet;application/x-cd-image;application/x-compress;application/x-compressed-tar;application/x-cpio;application/x-deb;application/x-gtar;application/x-gzip;application/x-gzpostscript;application/x-lha;application/x-lhz;application/x-lzma;application/x-lzma-compressed-tar;application/x-ms-wim;application/x-rar;application/x-rar-compressed;application/x-rpm;application/x-tar;application/x-xz;application/x-xz-compressed-tar;application/x-zip;application/x-zip-compressed;application/zip;application/vnd.ms-cab-compressed;
+

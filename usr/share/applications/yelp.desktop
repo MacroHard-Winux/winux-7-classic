@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=Help
+Comment=Get help with GNOME
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords=documentation;information;manual;help;
+OnlyShowIn=GNOME;Unity;
+Exec=yelp %u
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=org.gnome.Yelp
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Core;Documentation;Utility;
+MimeType=x-scheme-handler/ghelp;x-scheme-handler/help;x-scheme-handler/info;x-scheme-handler/man;
+X-Ubuntu-Gettext-Domain=yelp
+
+NoDisplay=true

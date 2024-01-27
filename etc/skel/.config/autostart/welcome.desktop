@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=python3 /usr/share/winux7/welcome/welcome.py
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[C]=Welcome Screen
+Comment[C]=No description
+X-GNOME-Autostart-Delay=1

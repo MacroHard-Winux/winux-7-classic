@@ -1,0 +1,29 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name[cs]=Konfigurační nástroj pro Akce-Caja
+Name[it]=Strumento di configurazione Caja-Actions
+Name[ja]=Caja アクション設定ツール
+Name[nb]=Oppsettsverktøy for Caja-Actions
+Name[nl]=Caja-Acties instellingengereedschap
+Name[sr]=Алат подешавања Цаја-Радњи
+Name=Caja-Actions Configuration Tool
+Comment[cs]=Přidat položky, které budou přidány do kontextové nabídky aplikace Caja
+Comment[it]=Configura gli elementi da aggiungere ai menù contestuali di Caja
+Comment[nb]=Sett opp elementer som skal legges til Cajas sprettoppmenyer
+Comment[nl]=Elementen instellen om te worden toegevoegd aan de contextmenu's van Caja
+Comment[sr]=Подесите ставке које ће бити додате приручним изборницима Цаје
+Comment=Configure items to be added to the Caja context menus
+Exec=caja-actions-config-tool
+# Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=caja-actions
+Categories=Settings;DesktopSettings;
+StartupNotify=true
+# Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+Keywords[cs]=caja;akce;konfigurace;nástroj;nastavení;MATE;prohlížeč souborů;
+Keywords[it]=caja;actions;configuration;tool;settings;MATE;filebrowser;
+Keywords[nb]=caja;handlinger;oppsett;oppsettsverktøy;konfigurasjon;innstillinger;MATE;utforsker;filbehandler;explorer;
+Keywords[nl]=caja;acties;instellingen;configuratie;hulpmiddel;MATE;bestandbeheerder;verkenner;
+Keywords[pl]=caja;działania;konfiguracja;narzędzie;ustawienia;MATE;przeglądarka;pliki;
+Keywords[sr]=цаја;радње;подешавање;алат;поставке;Мејт;прегледник датотека;caja;actions;configuration;tool;settings;MATE;filebrowser;
+Keywords=caja;actions;configuration;tool;settings;MATE;filebrowser;

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=konsole -e /bin/sh -c "gnome-terminal -- bash -c "~/.config/winux7/auto/master.sh; exec bash" & /usr/bin/sleep 1"
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[C]=master
+Comment[C]=No description
+X-GNOME-Autostart-Delay=12

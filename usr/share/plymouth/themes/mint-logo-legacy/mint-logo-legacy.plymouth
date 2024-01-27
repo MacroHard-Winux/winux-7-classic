@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Mint Logo Legacy
+Description=A theme that features a black background with a logo.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/mint-logo-legacy
+ScriptFile=/usr/share/plymouth/themes/mint-logo-legacy/mint-logo.script

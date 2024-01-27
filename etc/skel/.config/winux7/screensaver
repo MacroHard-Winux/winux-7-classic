@@ -1,0 +1,3 @@
+#!/bin/bash
+killall cinnamon-screensaver
+sleep 2

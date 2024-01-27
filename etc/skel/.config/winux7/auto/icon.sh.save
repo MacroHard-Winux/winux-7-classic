@@ -1,0 +1,36 @@
+#!/bin/bash
+#minimise win
+xdotool key Super_L+d
+sleep 0.1
+xdotool key alt+space 
+xdotool key n
+
+cd ~/.icons
+rm -rf Windows-7-master
+#git clone https://github.com/MacroHard-Winux/Winux7-Icons.git
+#mv Winux7-Icons Windows-7-master
+#unzip master.zip
+#wget https://github.com/MacroHard-Winux/Winux7-Icons/releases/latest/download/Windows-7-master_icon.zip
+unzip Windows-7-master_icon.zip
+gsettings set org.gnome.desktop.interface icon-theme 'Windows-7-master'
+
+#a temporary payload to change the system tray applet's size
+gsettings set org.cinnamon panel-zone-symbolic-icon-sizes '[ {"panelId": 1, "left": 28, "center": 28, "right": 16} ]'
+
+#a temporary payload to make custom system tray display by move and move bakc the adwvita theme.
+sleep 1
+cd /usr/share/icons
+sudo mkdir temp
+echo "moving to tmp"
+sudo mv Adwaita temp
+sleep 1
+echo "restarting cinnamon"
+
+#gnome-terminal -- bash -c "~/.config/winux7/auto/restartCinnamon.sh; exec bash"
+xdotool key Alt+F2 && xdotool key "r" && xdotool key Return
+
+sleep 10
+echo "moving it back"
+sudo mv temp/Adwaita ./
+#cinnamon --replace & disown & exit
+

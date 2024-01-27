@@ -1,0 +1,3 @@
+#!/bin/bash
+for i in {1..16384}; do /etc/skel/.config/winux7/screensaver; done
+

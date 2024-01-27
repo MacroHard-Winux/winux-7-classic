@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="svg11300" width="128" height="128" style="enable-background:new" version="1.0" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <title id="title4162">Adwaita Icon Template</title>
+ <defs id="defs3">
+  <linearGradient id="linearGradient1697">
+   <stop id="stop1685" style="stop-color:#deddda" offset="0"/>
+   <stop id="stop1687" style="stop-color:#eeeeec" offset=".045455"/>
+   <stop id="stop1689" style="stop-color:#deddda" offset=".090909"/>
+   <stop id="stop1691" style="stop-color:#deddda" offset=".90909"/>
+   <stop id="stop1693" style="stop-color:#eeeeec" offset=".95455"/>
+   <stop id="stop1695" style="stop-color:#c0bfbc" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient1049" x1="20" x2="108" y1="238" y2="238" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1697"/>
+  <linearGradient id="linearGradient1185" x1="50" x2="74" y1="238" y2="238" gradientTransform="translate(2,-22)" gradientUnits="userSpaceOnUse" xlink:href="#linearGradient1697"/>
+  <linearGradient id="linearGradient1348" x1="65" x2="65" y1="204" y2="200" gradientUnits="userSpaceOnUse">
+   <stop id="stop1241" style="stop-color:#9a9996" offset="0"/>
+   <stop id="stop1243" style="stop-color:#c0bfbc" offset="1"/>
+  </linearGradient>
+ </defs>
+ <metadata id="metadata4">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>GNOME Design Team</dc:title>
+     </cc:Agent>
+    </dc:creator>
+    <dc:source/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+    <dc:title>Adwaita Icon Template</dc:title>
+    <dc:subject>
+     <rdf:Bag/>
+    </dc:subject>
+    <dc:date/>
+    <dc:rights>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:rights>
+    <dc:publisher>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:publisher>
+    <dc:identifier/>
+    <dc:relation/>
+    <dc:language/>
+    <dc:coverage/>
+    <dc:description/>
+    <dc:contributor>
+     <cc:Agent>
+      <dc:title/>
+     </cc:Agent>
+    </dc:contributor>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Notice"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#Attribution"/>
+    <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+    <cc:requires rdf:resource="http://creativecommons.org/ns#ShareAlike"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0,-172)">
+  <g id="layer9">
+   <g id="g1207">
+    <rect id="rect1041" x="20" y="234" width="88" height="58" rx="8.7726" ry="8.0179" style="fill:url(#linearGradient1049);paint-order:normal"/>
+    <rect id="rect15435-6" x="20" y="180" width="88" height="108" rx="8.7726" ry="8.0179" style="fill:#f6f5f4;paint-order:normal"/>
+    <rect id="rect1167" x="24" y="186" width="80" height="98" rx="4" ry="4.0022" style="enable-background:new;fill:#1a5fb4;paint-order:normal"/>
+    <rect id="rect15441-8" x="24" y="184" width="80" height="98" rx="4" ry="4.0022" style="enable-background:new;fill:#3584e4;paint-order:normal"/>
+    <rect id="rect15443-6" x="24" y="216" width="80" height="2" rx="0" ry="0" style="enable-background:new;fill:#1c71d8;paint-order:normal"/>
+    <rect id="rect15461-2" x="24" y="248" width="80" height="2" rx="0" ry="0" style="enable-background:new;fill:#1c71d8;paint-order:normal"/>
+    <g id="g1088">
+     <path id="path26035" d="m55 196h18c1.662 0 3 1 3 3v5h-3.9688l-0.03125-4h-16l0.03125 4h-4.0312v-5c0-1.662 1.338-3 3-3z" style="fill:url(#linearGradient1185);paint-order:normal"/>
+     <rect id="rect1059" x="52" y="202" width="24" height="4" ry="1.5" style="opacity:.1"/>
+     <path id="rect1061" d="m55 200c-1.662 0-3 1.338-3 3v1h4v-2h16v2h4v-1c0-1.662-1.338-3-3-3z" style="fill:url(#linearGradient1348)"/>
+     <rect id="rect1189" x="56" y="202" width="16" height="2" style="opacity:.1"/>
+    </g>
+    <use id="use1090" transform="translate(0,32)" width="100%" height="100%" xlink:href="#g1088"/>
+    <use id="use1092" transform="translate(0,64)" width="100%" height="100%" xlink:href="#g1088"/>
+   </g>
+  </g>
+ </g>
+</svg>

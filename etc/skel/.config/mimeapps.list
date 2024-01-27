@@ -1,0 +1,9 @@
+[Default Applications]
+application/x-desktop=wine-extension-dic.desktop
+application/x-shellscript=thunderbird.desktop
+text/x-python3=xed.desktop
+
+[Added Associations]
+text/x-python3=xed.desktop;
+application/x-shellscript=thunderbird.desktop;
+application/x-desktop=thunderbird.desktop;wine-extension-dic.desktop;

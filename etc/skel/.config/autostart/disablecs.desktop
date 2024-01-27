@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/etc/skel/.config/winux7/fScreensaver
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[C]=disable cinnamon screensaver
+Comment[C]=No description
+X-GNOME-Autostart-Delay=1

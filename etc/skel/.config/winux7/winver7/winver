@@ -1,0 +1,4 @@
+#!/bin/bash
+cd "$(dirname "$0")"
+cd ~/.config/winux7/winver7/
+./winver.sh

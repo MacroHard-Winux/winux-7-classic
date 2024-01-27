@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=python3 /usr/share/winux7/welcome/welcome.py
+X-GNOME-Autostart-enabled=false
+NoDisplay=false
+Hidden=false
+Name[C]=Getting Started
+Comment[C]=No description
+Icon=getting-started

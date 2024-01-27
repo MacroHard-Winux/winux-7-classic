@@ -1,0 +1,13 @@
+--2023-07-16 09:28:08--  https://archive.org/download/win-10-22-h-2-english-x-64/Win10_22H2_English_x64.iso
+Resolving archive.org (archive.org)... 207.241.224.2
+Connecting to archive.org (archive.org)|207.241.224.2|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: https://ia601402.us.archive.org/32/items/win-10-22-h-2-english-x-64/Win10_22H2_English_x64.iso [following]
+--2023-07-16 09:28:09--  https://ia601402.us.archive.org/32/items/win-10-22-h-2-english-x-64/Win10_22H2_English_x64.iso
+Resolving ia601402.us.archive.org (ia601402.us.archive.org)... 207.241.227.122
+Connecting to ia601402.us.archive.org (ia601402.us.archive.org)|207.241.227.122|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 6115186688 (5.7G) [application/x-iso9660-image]
+Saving to: 'Win10_22H2_English_x64.iso.2’
+
+ish_x64.iso.2         0%[                    ]  15.29M   591KB/s    eta 3h 2m  

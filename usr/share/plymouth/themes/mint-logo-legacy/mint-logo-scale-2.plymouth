@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Mint Logo (Scale x2)
+Description=A theme that features a blank background with a logo.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/mint-logo
+ScriptFile=/usr/share/plymouth/themes/mint-logo/mint-logo-scale-2.script

@@ -1,0 +1,8 @@
+{
+    "uuid": "clean-show-desktop@filipetorresbr",
+    "name": "Clean Show Desktop",
+    "description": "An Applet to show the Desktop just like in Windows 10, but completely customizable",
+    "max-instances": 10,
+    "author": "FilipeTorresBR",
+    "last-edited": 1676365032
+}

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="c" x1="8" x2="112" y1="-244" y2="-244" gradientTransform="rotate(180 62 -88.5)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#d5d3cf" offset="0"/>
+   <stop stop-color="#f6f5f4" offset=".038"/>
+   <stop stop-color="#d5d3cf" offset=".077"/>
+   <stop stop-color="#d5d3cf" offset=".923"/>
+   <stop stop-color="#eeeeec" offset=".962"/>
+   <stop stop-color="#d5d3cf" offset="1"/>
+  </linearGradient>
+  <linearGradient id="d" x1="-48" x2="-91.75" y1="-210.25" y2="-276" gradientTransform="rotate(180 0 -86)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#f3f2f0" offset="0"/>
+   <stop stop-color="#f9f8f7" offset="1"/>
+  </linearGradient>
+  <filter id="a" x="0%" y="0%" width="100%" height="100%">
+   <feColorMatrix in="SourceGraphic" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"/>
+  </filter>
+  <mask id="f">
+   <g filter="url(#a)">
+    <path d="M0 0h128v128H0z" fill-opacity=".542"/>
+   </g>
+  </mask>
+  <clipPath id="b">
+   <path d="M0 0h192v152H0z"/>
+  </clipPath>
+  <g id="e" clip-path="url(#b)" fill="#c0bfbc">
+   <path d="m28 120c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm-32-23c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm-64-23c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4zm16 0c0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4 4 1.79 4 4z"/>
+  </g>
+  <clipPath id="g">
+   <path d="m87 80h29v29h-29z"/>
+  </clipPath>
+  <clipPath id="h">
+   <path d="m116 86.973-22 22h-6.285v-28.285h28.285z"/>
+  </clipPath>
+  <mask id="j">
+   <g filter="url(#a)">
+    <path d="M0 0h128v128H0z" fill-opacity=".2"/>
+   </g>
+  </mask>
+  <image id="i" width="192" height="152" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACYCAYAAACyAeadAAAABmJLR0QA/wD/AP+gvaeTAAADz0lEQVR4nO3cy4/dYxzH8fdMR5WiVSIiLpEIwUZiwYqthf/YysZKSAghNiIal1albmV6GYvnPHo6VGZac07rvF7JL6eZNP2d9Pf9/J5L5vkWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8P+2te4vwF+2uv48bue57C2ulj65CQFYv61quzpW3bP43O7Wns216mp1ZXFdTQj+lQCs13a1U91XPVidqh6ojjeCcNDnM9/6u9Vv1U/VxcWfd7txVGCJAKzPdqPQT1dPVS9UL1bPVA9X9y7+zkHsVZcbhX+2+rz6tPqy+qH6vTE6CME+ArAes/gfrV6u3qxerZ5sjAK3MwL8XH1XfVK9W33QCMXvjSkRS3bW/QU20Fbj//10o/jfrl5vjAIPNNYBt7IGmCE4XT3SCNepRpAuV99WfzRGAhYEYPW2qxONgn+jeq16trEG2OnG3aDD2msU/E4jSFvVpepc9UsjCNYDS46t+wtsmPn2P9OY8rxVPd94a9/qm3//vz93lWYIdqofq68aIbAztOSgiyz+G1uNojzVWPA+2Zj2zDf/f3mfY9X91eONqdYjjbWFdd8SAVitWZgnq6e7vuA9iqJcvtcTjQDMnSUhWBCA1dtuFOLyVudRFeScCp1srDHmuoAFAVi9+WY+0eG2Om/VdqPwV3W/u4oArMdcqK6qGFd9v7uGAKzPqotR8f8DAWCjCQAbTQDYaALARhMANpoAsNEEgI0mAGw0AViPvVZ7RHHV97trCMDqzWLcbTVFOTtFrOp+dxUBWL1Z/Bc7+qLcaxT/b42zwvNEGAsCsFrLBfl1oyivdDRFOe81j0ReyCjwNwKwWnuNgr/YaF3yTSMMR3FM8VqjE8S56rNGe5TZI4gFZ4LXZ6t6rNG94WQ3Hou83daIs/jPVx9X71RfNM4E6wqxRADW41pjPn61cSxyntaav7O/3NvzoNec2lxpTHvON5pjvVO93xgJjAD7CMB6zE5uvzbeyse6flpr7tpcPsS1u7guNaZXZ6uPGsX/XmO9cSlv/79xSGI95gmtE40p0HPVK9VL3dgp4jCtEefi+vvG+uLDxtz/20bQtEP5BwKwPrOHz/HGGuBMo3PDmeqhxoH5g47Qc2v1l0YPoAuNKdDPi58r/psQgPWbh+TvaYTheNfbpB+mN+hcV+wufc7CV/w3IQB3hq191/bSzw9q/2JY4R+AANx5bveZKHoAAAAAAKY/AbsP2RtfVKhsAAAAAElFTkSuQmCC"/>
+  <clipPath id="k">
+   <path d="m94 86h22v23h-22z"/>
+  </clipPath>
+  <clipPath id="l">
+   <path d="m116 86.973-22 22h-6.285v-28.285h28.285z"/>
+  </clipPath>
+  <linearGradient id="m" x1="344" x2="338.91" y1="76" y2="70.909" gradientTransform="matrix(0 .19643 .19643 0 90.071 30.4)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#d5d3cf" offset="0"/>
+   <stop stop-color="#f6f5f4" offset="1"/>
+  </linearGradient>
+  <clipPath id="n">
+   <path d="m94 86h22v23h-22z"/>
+  </clipPath>
+  <clipPath id="o">
+   <path d="m94 108.97 22-22h6.285v28.285h-28.285z"/>
+  </clipPath>
+ </defs>
+ <path d="m108 117h-88c-4.418 0-8-4.234-8-9.453v-70.094c0-5.219 3.582-9.453 8-9.453h88c4.418 0 8 4.234 8 9.453v70.094c0 5.219-3.582 9.453-8 9.453z" fill="#a51d2d"/>
+ <path d="m108 115h-88a8 8 0 0 1-8-8v-24a8 8 0 0 1 8-8h88a8 8 0 0 1 8 8v24a8 8 0 0 1-8 8z" fill="url(#c)"/>
+ <path d="m108 109h-88a8 8 0 0 1-8-8v-80a8 8 0 0 1 8-8h88a8 8 0 0 1 8 8v80a8 8 0 0 1-8 8z" fill="url(#d)"/>
+ <use transform="translate(0 -24)" mask="url(#f)" xlink:href="#e"/>
+ <path d="m62 73c0 3.313-2.688 6-6 6-3.313 0-6-2.688-6-6 0-3.313 2.688-6 6-6 3.313 0 6 2.688 6 6z" fill="#ed333b"/>
+ <g clip-path="url(#g)">
+  <g clip-path="url(#h)">
+   <use transform="translate(0 -24)" mask="url(#j)" xlink:href="#i"/>
+  </g>
+ </g>
+ <g clip-path="url(#k)">
+  <g clip-path="url(#l)">
+   <path d="M94 94.973v12.285a8 8 0 0 0 8 8h12.285a8 8 0 0 0 8-8V94.973a8 8 0 0 0-8-8H102a8 8 0 0 0-8 8zm0 0" fill="url(#m)"/>
+  </g>
+ </g>
+ <g clip-path="url(#n)">
+  <g clip-path="url(#o)">
+   <path d="m116 100.97v-12.285a8 8 0 0 0-8-8h-12.285a8 8 0 0 0-8 8v12.285a8 8 0 0 0 8 8h12.285a8 8 0 0 0 8-8z" fill="#f6f5f4"/>
+  </g>
+ </g>
+ <path d="m20 12a7.98 7.98 0 0 0-8 8v12h104v-12c0-4.434-3.566-8-8-8z" fill="#3584e4"/>
+ <path d="m12 30v2h104v-2z" fill="#1a5fb4"/>
+</svg>

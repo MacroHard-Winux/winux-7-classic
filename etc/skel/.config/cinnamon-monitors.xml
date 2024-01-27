@@ -1,0 +1,30 @@
+<monitors version="1">
+  <configuration>
+      <clone>no</clone>
+      <output name="eDP-1">
+          <vendor>BOE</vendor>
+          <product>0x06fa</product>
+          <serial>0x00000000</serial>
+      </output>
+      <output name="DP-1">
+      </output>
+      <output name="HDMI-1">
+      </output>
+      <output name="DP-2">
+      </output>
+      <output name="HDMI-2">
+          <vendor>SNY</vendor>
+          <product>0x7c04</product>
+          <serial>0x01010101</serial>
+          <width>1920</width>
+          <height>1080</height>
+          <rate>60.000000</rate>
+          <x>0</x>
+          <y>0</y>
+          <rotation>normal</rotation>
+          <reflect_x>no</reflect_x>
+          <reflect_y>no</reflect_y>
+          <primary>yes</primary>
+      </output>
+  </configuration>
+</monitors>

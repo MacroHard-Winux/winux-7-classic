@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Cinnamon Killer Daemon
+Comment=Restarts Cinnamon and Nemo when a key combination is pressed
+Icon=reload
+Exec=cinnamon-killer-daemon
+Terminal=false
+Type=Application
+NoDisplay=true
