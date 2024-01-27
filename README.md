@@ -56,7 +56,7 @@ apt install python3-pyqt5 -y
 ln /etc/skel/.config/winux7/winver7/winver /bin/winver  
 
 # MSOffice2007Setup.tar.gz is not uploaded because the file is too big  
-if you need it download the file from , and put it at ~/.config/winux7/  
+if you need it download the file from https://github.com/MacroHard-Winux/winux-7-classic/releases/download/MSOffice2007Setup.tar.gz/MSOffice2007Setup.tar.gz, and put it at ~/.config/winux7/  
 
 # Use at your own risk    
 You are on your own, good luck  
