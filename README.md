@@ -55,6 +55,9 @@ Make winver launchable:
 apt install python3-pyqt5 -y  
 ln /etc/skel/.config/winux7/winver7/winver /bin/winver  
 
+# MSOffice2007Setup.tar.gz is not uploaded because the file is too big  
+if you need it download the file from , and put it at ~/.config/winux7/  
+
 # Use at your own risk    
 You are on your own, good luck  
 (Seriously, don't do this yourself if you don't know what you are doing. Especially on your daily driver)  
